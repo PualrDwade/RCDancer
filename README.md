@@ -1,5 +1,5 @@
 # RCDancer项目代码说明
-Intel[:cloud:](英特尔) | together[:couple:](协作) |document[:floppy_disk:](文档)| code [:coffee:](编码)
+Intel[:cloud:](https://github.com/PualrDwade) | together[:couple:](https://github.com/PualrDwade) |document[:floppy_disk:](https://github.com/PualrDwade)| code [:coffee:](https://github.com/PualrDwade)
 ### 文件目录结构
 ---
 #### 1.  **RCDancer-FontEnd**
