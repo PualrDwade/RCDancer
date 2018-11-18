@@ -1,0 +1,52 @@
+$primaryColor = #ff6347 
+$p_light = #ff5c93
+$p_dark = #c5003c
+$secondColor = #fdd835
+$s_light = #ffca6d
+$s_dark = #bb6a06
+
+// text color:
+$backColor = #383838
+$normalColor = #555555
+$lessColor = #757575
+$borderColor = #f4f4f4
+
+flex-center() {
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+text-ellipsis() {
+    white-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+html, body {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+body::after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #303030;
+    z-index: -1;
+}
+.flex {
+    display: flex;
+}
+.flip {
+    transform: rotateY(180deg);
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.grow-to-fill {
+    flex-grow: 1;
+}
+

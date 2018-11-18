@@ -1,0 +1,9 @@
+// 训练页面的状态管理
+const STATUS = {
+  LOADING: 'LOADING',
+  FINISHED: 'FINISHED',
+  PAUSE: 'PAUSE',
+  PLAYING: 'PLAYING',
+  END: 'END',
+  ERROR: 'ERROR'
+}
