@@ -7,11 +7,16 @@
 echo "RCDancer script file for cenos start..."
 
 # first install the node env for the fond end project
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
+
+# install the node env
 sudo yum install -y nodejs
 
 # change the directory to the fond-end project 
 cd ../RCDancer-FontEnd
+
+#changge the taobao npm registry
+npm config set registry https://registry.npm.taobao.org
 
 # use the npm script to install the whole dependences of the vue-project
 npm install
