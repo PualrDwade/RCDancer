@@ -4,14 +4,17 @@
 
 # notice! before you run this script file , please use shell cmd:chmod 777 [filename] to make sure this file is executeable!
 
-echo "RCDancer script file for cenos start..."
+echo "RCDancer script file for ubuntu start..."
 
 # first install the node env for the fond end project
-curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 # install the node env
 sudo apt-get install -y nodejs
 
+# install npm
+sudo apt-get install npm
+sudo npm install npm@latest -g
 # change the directory to the fond-end project 
 cd ../RCDancer-FontEnd
 
