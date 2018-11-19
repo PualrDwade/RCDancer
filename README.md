@@ -1,10 +1,11 @@
-## RCDancer项目README
+# RCDancer项目README
+
 Intel[:cloud:](英特尔) | together[:couple:](协作) |document[:floppy_disk:](文档)| code [:coffee:](编码)
 
 #### 项目框架结构详解
 
 ---
-##### #1.  **RCDancer-FontEnd**
+#### #1.  **RCDancer-FontEnd**
 
 * 简介:
    集成`Vue`,`Vuex`,`Vuetify`组件库,结合`tensorflow.js`技术的前端单页应用框架
@@ -39,7 +40,8 @@ Intel[:cloud:](英特尔) | together[:couple:](协作) |document[:floppy_disk:](
 '        |   |-- modules',
 '        |-- views',
 ```
-##### #2.  **RCDancerServer-Flask**
+#### #2.  **RCDancerServer-Flask**
+
 * 简介:
    `python-Flask`微服务`api`,用来处理系统的视频上传.下载.保存等请求,提供前端需要的预处理操作
 * 目录结构:
@@ -57,7 +59,8 @@ Intel[:cloud:](英特尔) | together[:couple:](协作) |document[:floppy_disk:](
 '        |-- Video.py',
 '        |-- __init__.py',
 ```
-##### #3.  **RCDancerServer-SpringBoot**
+#### #3.  **RCDancerServer-SpringBoot**
+
 * 简介:
   集成SpringBoot,SpringMVC,Mybatis,Swagger,Mybatis通用插件,PageHelper插件,JsonWebToken技术,阿里Fastjson以及Druid-SpringBootStarter集成Druid数据库连接池与监控的项目框架.
 * 目录结构:
@@ -99,6 +102,7 @@ Intel[:cloud:](英特尔) | together[:couple:](协作) |document[:floppy_disk:](
 '        |-- test',----(测试用例文件夹)
 ```
 #### 部署指南
+---
 由于生产环境使用linux机器,所以只考虑在linux系统下的部署流程
 1. 下载项目到本地
 ```git
