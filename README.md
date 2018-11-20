@@ -5,7 +5,7 @@ Intel[:cloud:](英特尔) | together[:couple:](协作) |document[:floppy_disk:](
 #### 项目框架结构详解
 
 ---
-#### #1.  **RCDancer-FontEnd**
+#### #1.  **RCDancer-FrontEnd**
 
 * 简介:
    集成`Vue`,`Vuex`,`Vuetify`组件库,结合`tensorflow.js`技术的前端单页应用框架
